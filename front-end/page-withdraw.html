@@ -1,0 +1,77 @@
+<article class="row">
+
+	<div class="col-lg-8 offset-lg-2">
+
+		<div class="card card-inverse" id="cardblock">
+			<div class="card-block">
+				<h3 class="card-title">Microbank</h3>
+				<p class="card-text">Query your balance, deposit and widthraw cash.</p>
+				<a id="helpline" href="#" class="btn btn-primary"> HELPLINE</a>
+			</div>
+		</div>
+
+	</div>
+
+
+</article>
+
+<!-- MENU SECTION -->
+
+<article id="pad_bread_section" class="row">
+
+	<div class="col-lg-8 offset-lg-2">
+		<div class="row">
+
+			<!-- breadcrumb -->
+			<article class="col-lg-12">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a ng-href="/">Home</a></li>
+					<li class="breadcrumb-item active">Withdraw</li>
+				</ol>
+			</article>
+
+			<!-- session feedback flash [success] -->
+			 <article style="transition: all linear 0.5s;" ng-hide="pass" class="col-lg-12">
+				<div class="alert alert-success" role="alert">
+					<strong>Well done!</strong> {{success}}
+				</div>
+			</article>
+
+			<!-- session feedback flash [fail] -->
+				<article style="transition: all linear 0.5s;" ng-hide="fail" class="col-lg-12">
+				<div class="alert alert-warning" role="alert">
+					<strong>Warning!</strong> {{warnings}}.
+				</div>
+			</article>
+
+
+		</div>
+	</div>
+
+</article>
+
+
+<!-- WITHDRAW -->
+
+<article id="pad_balance_section" class="row">
+
+	<div class="col-lg-8 offset-lg-2">
+		<div class="row">
+
+
+			<article class="col-lg-6 offset-lg-3">
+
+				<div id="input_group" class="input-group">
+					<span class="input-group-addon">$</span>
+					<input id="account_balance" ng-model="account_balance" required placeholder="00" type="number" class="form-control" aria-label="Amount">
+					<span class="input-group-addon">.00</span>
+				</div>
+				<br>
+				<button id="deposit_btn" ng-click="withdraw()" class="btn btn-primary">Withdraw</button>
+
+			</article>
+
+		</div>
+	</div>
+
+	</articl

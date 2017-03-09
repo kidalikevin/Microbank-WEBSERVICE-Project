@@ -1,0 +1,110 @@
+/*css by kidali kevin*/
+body
+{
+	padding-top:3%;
+}
+
+a
+{
+	text-decoration: none !important;
+	color:none;
+}
+
+
+/*DIV STYLING*/
+#cardblock
+{
+	background-color: #333;
+	border-color: #333;
+}
+
+#pad_menu_section
+{
+	padding-top:5%;
+}
+
+#pad_bread_section
+{
+	padding-top: 2%;
+	font-family: Roboto;
+	font-size: 13px;
+}
+
+#pad_balance_section
+{
+	padding-top: 2%;
+}
+
+a#helpline
+{
+	font-size:13px;
+	font-family: Roboto !important;
+	font-weight: bold !important;
+}
+
+p#copy
+{
+	margin-top: 5%;
+	text-align: center;
+	font-size: 12px;
+	font-family: Roboto;
+}
+
+h4#balance
+{
+	font-size: 15px;
+	font-family: Roboto;
+	font-weight: bold;
+	text-align: center;
+	color: #999;
+}
+
+
+button#deposit_btn
+{
+	font-size: 13px;
+	border-radius: 0px;
+	font-family: Roboto;
+	font-weight:bold;
+
+}
+
+#input_group *
+{
+	font-size:13px;
+	font-family:  Roboto;
+}
+
+
+/*//CLASSES SYTLING*/
+
+
+div.menu_cards
+{
+	text-align:center;
+	font-size:13px;
+	font-weight:bold;
+	font-family:Roboto;
+	cursor:pointer;
+	background: #025AA5;
+}
+
+div.menu_cards *
+{
+	color:#fff;
+}
+
+.ng-hide {
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  top:-200px;
+  left: 200px;
+}
+
+/*STYLE HOVER EFFECTS ON BUTTONS*/
+.menu_cards:hover *
+{
+	color:#999;
+	/*border-bottom:2px solid #333333;*/
+}
