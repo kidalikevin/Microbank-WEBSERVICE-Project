@@ -137,5 +137,12 @@ myApp.controller('balanceController', function ($scope, $http) {
 
 
 myApp.controller('BankController', function ($scope, $http) {
+	   $scope.resetaccount = function(){
+
+$http.get("http://127.0.0.1:8000/resetaccount").then(function(response) {
+   location.reload();
+  });
+
+}
 
 });
