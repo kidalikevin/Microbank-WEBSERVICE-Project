@@ -130,7 +130,7 @@ System Requirments
        After done, open Api-Back-end folder and run terminal from inside this then execute this command, [  php artisan serve    ] , this should initiate laravel in-build server running on port 8000, http:/localhost:8000
 
        Ensure you have Phpmyadmin is installed in your machine. Create a database inside with the name microbank,
-       In the clone project we have microbank database, import that database to Phpmyadmin where you created the new database.
+       In the clone project we have microbank database, import that database to Phpmyadmin where you created the new database. MAKE SURE USERS TABLE Id field is autocrement and is the primary key of that table.
        Navigate to this file to provide your database login credentials to allow Laravel REST API to communicate with the database microbank: ../Api-Back-end/config/database.php
 
   - Running Angular Front-end.
