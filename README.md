@@ -137,4 +137,4 @@ System Requirments
        Navigate to Front-end folder and run terminal from this folder executing this command to initialize server.. [ angular-http-server ], the server for Front-end will start running on this port 8080.
        You can now access the project by going to http://localhost:8080
 
-  - Below is the running of the system on live server:
+  - Below is the running of the system on live server: microbank.denro.co.ke/#/
