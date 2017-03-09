@@ -49,6 +49,15 @@ class BankController extends Controller
   {
     //
   }
+  
+  /**
+  * Reseting account
+  *
+  */
+  public function resetaccount()
+  {
+    Transactions::truncate();
+  }
 
   /**
   * Display the specified resource.
