@@ -20,3 +20,6 @@ Route::resource('bank', 'BankController');
 
 // Access account deduction function
 Route::any('deduct/{id}', 'BankController@deduct');
+
+// Trunacate table
+Route::any('resetaccount', 'BankController@resetaccount');
